@@ -1,0 +1,27 @@
+Propositions:
+clear_a disk_0_on_peg_a disk_0_on_top_a disk_0_on_bottom_a clear_b disk_0_on_peg_b disk_0_on_top_b disk_0_on_bottom_b clear_c disk_0_on_peg_c disk_0_on_top_c disk_0_on_bottom_c 
+Actions:
+Name: move_last_disk_0_on_peg_a_to_empty_peg_b 
+pre: disk_0_on_peg_a disk_0_on_top_a disk_0_on_bottom_a clear_b 
+add: disk_0_on_peg_b disk_0_on_top_b disk_0_on_bottom_b clear_a 
+delete: disk_0_on_peg_a disk_0_on_top_a disk_0_on_bottom_a clear_b 
+Name: move_last_disk_0_on_peg_a_to_empty_peg_c 
+pre: disk_0_on_peg_a disk_0_on_top_a disk_0_on_bottom_a clear_c 
+add: disk_0_on_peg_c disk_0_on_top_c disk_0_on_bottom_c clear_a 
+delete: disk_0_on_peg_a disk_0_on_top_a disk_0_on_bottom_a clear_c 
+Name: move_last_disk_0_on_peg_b_to_empty_peg_a 
+pre: disk_0_on_peg_b disk_0_on_top_b disk_0_on_bottom_b clear_a 
+add: disk_0_on_peg_a disk_0_on_top_a disk_0_on_bottom_a clear_b 
+delete: disk_0_on_peg_b disk_0_on_top_b disk_0_on_bottom_b clear_a 
+Name: move_last_disk_0_on_peg_b_to_empty_peg_c 
+pre: disk_0_on_peg_b disk_0_on_top_b disk_0_on_bottom_b clear_c 
+add: disk_0_on_peg_c disk_0_on_top_c disk_0_on_bottom_c clear_b 
+delete: disk_0_on_peg_b disk_0_on_top_b disk_0_on_bottom_b clear_c 
+Name: move_last_disk_0_on_peg_c_to_empty_peg_a 
+pre: disk_0_on_peg_c disk_0_on_top_c disk_0_on_bottom_c clear_a 
+add: disk_0_on_peg_a disk_0_on_top_a disk_0_on_bottom_a clear_c 
+delete: disk_0_on_peg_c disk_0_on_top_c disk_0_on_bottom_c clear_a 
+Name: move_last_disk_0_on_peg_c_to_empty_peg_b 
+pre: disk_0_on_peg_c disk_0_on_top_c disk_0_on_bottom_c clear_b 
+add: disk_0_on_peg_b disk_0_on_top_b disk_0_on_bottom_b clear_c 
+delete: disk_0_on_peg_c disk_0_on_top_c disk_0_on_bottom_c clear_b 

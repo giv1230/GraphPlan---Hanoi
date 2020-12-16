@@ -1,0 +1,2 @@
+Initial state: clear_b clear_c disk_0_on_top_a disk_0_on_peg_a disk_0_on_disk_1 disk_1_on_peg_a disk_1_on_disk_2 disk_2_on_peg_a disk_2_on_bottom_a 
+Goal state: clear_a clear_b disk_0_on_top_c disk_0_on_peg_c disk_0_on_disk_1 disk_1_on_peg_c disk_1_on_disk_2 disk_2_on_peg_c disk_2_on_bottom_c 
